@@ -16,7 +16,7 @@ public void draw()
 
 public void myFractal(int x, int y,  int big)
 {
-  if (size < 30)
+  if (s < 30)
   {
     fill(random(0, 255), random(0, 255), random(0, 255));
     rect (x, y, s, s);
