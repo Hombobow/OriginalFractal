@@ -10,8 +10,8 @@ public void setup()
 
 public void draw()
 {
-  myFractal(x, y, size);
-  myFractal(x + size, y + size, size / 3);
+  myFractal(x, y, s);
+  myFractal(x + s, y + s, s / 3);
 }
 
 public void myFractal(int x, int y,  int big)
