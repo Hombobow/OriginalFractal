@@ -14,7 +14,7 @@ public void draw()
   myFractal(x + s, y + s, s / 3);
 }
 
-public void myFractal(int x, int y,  int big)
+public void myFractal(int x, int y,  int s)
 {
   if (s < 30)
   {
